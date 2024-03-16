@@ -1,0 +1,290 @@
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Open Sans';
+    background-color: #222323;
+    color: #ffffff;
+}
+
+header {
+    background-color: #222323;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+header img {
+    width: 120px;
+}
+.menu {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.producto {
+    width: 1100px;
+    margin: 50px auto;
+    padding: 60px 80px;
+    color: #e2e2e2;
+}
+
+.producto li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4%;
+    padding: 30px 13px;
+    box-sizing: border-box; 
+    border: #e2e2e2 solid 2px;
+    border-top-width: 12px ;
+}
+
+.producto li:hover {
+    color: #ffffff;
+    border:  #ffffff solid 2px;
+    border-top-width: 12px;
+    font-size: 18px;
+}
+
+.producto li:active {
+    color: #ffffff;
+    border:  #3c5182 solid 2px;
+    border-top-width: 12px;
+}
+
+.productoDescripcion {
+    font-size: 18px;
+}
+
+.productoPrecio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #222323 ;
+    color: #ffffff;
+    text-align: center;
+    border-top: 1px solid white;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.logoFooter {
+    margin: 10px;
+    margin-top: 40px;
+    width: 110px;
+}
+
+.copyright {
+    padding-bottom: 10px;
+}
+
+/* FORMULARIO */
+.contacto {
+    width: 400px;
+    margin: 40px auto;
+    
+}
+
+.formulario {
+    width: 940px;
+    margin: 40px auto;
+    font-size: 16px;
+    
+}
+
+.textoForm, .checkbox {
+    font-weight:bold;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form div label {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+form div p {
+    margin: 40px 0px 10px;
+}
+
+.inputBase {
+    display: block;
+    width: 410px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #8e8e8e;
+}
+
+.checkbox {
+    margin: 40px 0px 10px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px; /* Agrega un margen a la derecha para separar el checkbox del texto */
+}
+
+.enviar {
+    width: 35%;
+    padding: 10px;
+    margin: 10px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #3c5182;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.enviar:hover {
+    background: #4f6bad;
+}
+
+table {
+    margin: 40px 0px;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #ffffff;
+    color: #222323;
+}
+
+td, th{
+    width: 205px;
+    border: 1px solid #ffffff ;
+    padding: 8px 24px;
+}
+
+/* PAGINA DE INICIO */
+main {
+    width: 960px;
+    margin: 40px auto;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    margin: 80px 0px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.utensilios {
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.principal p{
+    margin-bottom: 1em ;
+    text-align: justify;
+}
+
+.mapa {
+    margin: 140px 0px;
+}
+
+.mapa p {
+    margin: -30px 0px 40px;
+    text-align: center;
+    
+}
+
+.mapa iframe {
+    width: 100%; 
+    height:450;
+    border:0;
+}
+
+.diferenciales {
+    margin: 140px 0px;
+}
+
+.contenidoDiferenciales{
+    width: 720px;
+    margin: 0px auto;
+}
+
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    font-size: 17px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagenDiferenciales {
+    width: 60%;
+    transition: box-shadow 0.3s ease;
+}
+
+.imagenDiferenciales:hover {
+    width: 60%;
+    box-shadow: 0px 0px 12px;
+}
+
+.video {
+    width: 560px;
+    margin: 120px auto;
+}
+
+.video iframe{
+    border: 2px solid #ffff;
+}
+
+@media screen and (max-width:480px){
+    .caja, .principal, .mapa, .contenidoDiferenciales, .video {
+        width: auto;
+    }
+}
